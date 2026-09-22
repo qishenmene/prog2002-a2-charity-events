@@ -1,0 +1,21 @@
+{
+  "name": "charity-events-api",
+  "version": "1.0.0",
+  "description": "RESTful API for the PROG2002 A2 charity events website (Node.js + Express + MySQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "restful-api",
+    "express",
+    "mysql"
+  ],
+  "author": "24832627",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.15.0"
+  }
+}
