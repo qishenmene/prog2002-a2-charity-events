@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Details — Coffs Coast Charity Collective</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="navbar">
+    <div class="logo">Coffs Coast <span>Charity</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search Events</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content ===== -->
+  <main class="container">
+
+    <!-- Loading indicator -->
+    <div id="loading" class="loading visible">Loading event details</div>
+
+    <!-- Error message -->
+    <div id="error-msg" class="error-msg"></div>
+
+    <!-- Event detail container (populated by JS) -->
+    <div id="event-detail"></div>
+
+  </main>
+
+  <!-- ===== Modal: "Under construction" (Register button) ===== -->
+  <div id="modal-overlay" class="modal-overlay">
+    <div class="modal">
+      <h3>Registration Coming Soon</h3>
+      <p>This feature is currently under construction. Online ticket registration will be available in a future update.</p>
+      <button id="modal-close" class="btn btn-primary">Close</button>
+    </div>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Coffs Coast Charity Collective. PROG2002 Assessment 2 — Student ID: 24832627</p>
+  </footer>
+
+  <!-- ===== Scripts ===== -->
+  <script src="js/api.js"></script>
+  <script src="js/event.js"></script>
+</body>
+</html>

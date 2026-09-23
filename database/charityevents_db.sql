@@ -111,49 +111,49 @@ VALUES
 ('Coffs Harbour Fun Run 2026',
  'Join 800 runners and walkers for the biggest fun run on the Coffs Coast. Choose a 5 km course along Coffs Creek or a family-friendly 2 km loop. Every registration includes a race pack, and all proceeds fund school breakfast programs across the region.',
  '2026-10-11', '07:00:00', 'Coffs Creek Reserve',
- 25.00, 20000.00, 8450.00, 'event-fun-run.jpg', 'active', 1, 1),
+ 25.00, 20000.00, 8450.00, 'cat-fun-run.svg', 'active', 1, 1),
 
 ('Starlight Gala Night',
  'An evening of fine dining, live jazz and auctions at Opal Cove Resort in support of children''s health services. Black-tie optional. Tickets include a three-course dinner and drinks; tables of ten can be reserved for corporate supporters.',
  '2026-10-24', '18:30:00', 'Opal Cove Resort',
- 120.00, 50000.00, 21500.00, 'event-gala-night.jpg', 'active', 2, 1),
+ 120.00, 50000.00, 21500.00, 'cat-gala-dinner.svg', 'active', 2, 1),
 
 ('Silent Auction by the Sea',
  'Browse and bid on artworks, weekend getaways and experiences donated by local businesses. Entry is free and all bidders receive a complimentary welcome drink. Proceeds fund marine debris research along the Solitary Islands.',
  '2026-11-07', '17:00:00', 'Coffs Harbour Botanic Garden Pavilion',
- 0.00, 15000.00, 5300.00, 'event-auction.jpg', 'active', 3, 2),
+ 0.00, 15000.00, 5300.00, 'cat-auction.svg', 'active', 3, 2),
 
 ('Concert for Kids',
  'A family concert evening featuring local school choirs, the Coffs Coast Concert Band and a special guest headliner. Gates open at 5:30 pm with food stalls and face painting. All proceeds go to the children''s hospital equipment appeal.',
  '2026-11-21', '19:00:00', 'C.ex Coffs International Stadium',
- 45.00, 30000.00, 12000.00, 'event-concert.jpg', 'active', 4, 1),
+ 45.00, 30000.00, 12000.00, 'cat-concert.svg', 'active', 4, 1),
 
 ('Beachside Community Market',
  'A Saturday market with over 60 stalls of artisan food, crafts and pre-loved treasures. Stall fees and gold-coin donations support the Coffs Animal Shelter Alliance. Bring the whole family, dogs on leads welcome.',
  '2026-10-04', '08:00:00', 'Park Beach Reserve',
- 0.00, 8000.00, 3100.00, 'event-market.jpg', 'active', 5, 3),
+ 0.00, 8000.00, 3100.00, 'cat-community-market.svg', 'active', 5, 3),
 
 ('Trivia for Turtles',
  'Round up a team of up to eight for a night of trivia, raffles and prizes at the Coffs Harbour Yacht Club. Themes include ocean trivia, music and local history. Funds support turtle rescue and rehabilitation equipment.',
  '2026-11-14', '18:30:00', 'Coffs Harbour Yacht Club',
- 15.00, 6000.00, 1900.00, 'event-trivia.jpg', 'active', 6, 2),
+ 15.00, 6000.00, 1900.00, 'cat-trivia-night.svg', 'active', 6, 2),
 
 ('Paws in the Park Walk',
  'Grab a leash and join the annual 3 km charity dog walk through the Coffs Harbour Botanic Garden. Registration includes a bandana for your pup and a pooch photo booth. Every dollar helps shelter animals find a home.',
  '2026-12-06', '09:00:00', 'Coffs Harbour Botanic Garden',
- 10.00, 10000.00, 2400.00, 'event-dog-walk.jpg', 'active', 1, 3),
+ 10.00, 10000.00, 2400.00, 'cat-fun-run.svg', 'active', 1, 3),
 
 ('New Year''s Eve Charity Ball',
  'See in the new year in style at the Pacific Bay Resort ballroom. The night includes a five-course dinner, champagne toast, live band and a midnight raffle draw. Proceeds provide education grants for local children in need.',
  '2026-12-31', '19:00:00', 'Pacific Bay Resort',
- 150.00, 60000.00, 9000.00, 'event-nye-ball.jpg', 'active', 2, 1),
+ 150.00, 60000.00, 9000.00, 'cat-gala-dinner.svg', 'active', 2, 1),
 
 ('Spring Art Auction',
  'Our spring auction of works by Mid North Coast artists has now closed. Thank you to everyone who bid — the event raised $13,400 for marine conservation, exceeding its goal.',
  '2026-09-12', '16:00:00', 'Coffs Regional Gallery',
- 0.00, 12000.00, 13400.00, 'event-art-auction.jpg', 'active', 3, 2),
+ 0.00, 12000.00, 13400.00, 'cat-auction.svg', 'active', 3, 2),
 
 ('Harbourside Sunset Concert',
  'This event has been suspended by the organisers pending organiser verification and will not be displayed on the website.',
  '2026-10-18', '18:00:00', 'Muttonbird Island Lookout',
- 35.00, 18000.00, 0.00, 'event-sunset-concert.jpg', 'suspended', 4, 2);
+ 35.00, 18000.00, 0.00, 'cat-concert.svg', 'suspended', 4, 2);

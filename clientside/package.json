@@ -1,0 +1,11 @@
+{
+  "name": "charity-events-clientside",
+  "version": "1.0.0",
+  "description": "Client-side website for the PROG2002 A2 charity events project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "24832627",
+  "license": "UNLICENSED"
+}

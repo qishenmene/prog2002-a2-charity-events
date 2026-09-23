@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- stage lights -->
+  <g opacity="0.6">
+    <circle cx="80" cy="30" r="20" fill="#FBBF24"/>
+    <circle cx="200" cy="20" r="18" fill="#FDE68A"/>
+    <circle cx="320" cy="30" r="20" fill="#FBBF24"/>
+    <path d="M80 50 L60 120" stroke="#FBBF24" stroke-width="30" opacity="0.15"/>
+    <path d="M200 38 L200 120" stroke="#FDE68A" stroke-width="30" opacity="0.15"/>
+    <path d="M320 50 L340 120" stroke="#FBBF24" stroke-width="30" opacity="0.15"/>
+  </g>
+  <!-- stage -->
+  <rect y="180" width="400" height="120" fill="#1E1B2E" opacity="0.7"/>
+  <rect y="175" width="400" height="8" fill="#FBBF24" opacity="0.5"/>
+  <!-- microphone -->
+  <g transform="translate(180,110)">
+    <circle cx="0" cy="0" r="15" fill="#fff" opacity="0.9"/>
+    <rect x="-3" y="15" width="6" height="50" fill="#fff" opacity="0.7"/>
+    <rect x="-15" y="65" width="30" height="6" rx="3" fill="#fff" opacity="0.7"/>
+  </g>
+  <!-- music notes -->
+  <g fill="#FBBF24" opacity="0.8">
+    <g transform="translate(80,100)">
+      <circle cx="0" cy="30" r="8"/>
+      <rect x="6" y="0" width="3" height="30"/>
+      <path d="M9 0 Q20 5 15 15" stroke="#FBBF24" stroke-width="3" fill="none"/>
+    </g>
+    <g transform="translate(130,80)">
+      <circle cx="0" cy="30" r="8"/>
+      <rect x="6" y="0" width="3" height="30"/>
+    </g>
+    <g transform="translate(260,90)">
+      <circle cx="0" cy="30" r="8"/>
+      <rect x="6" y="0" width="3" height="30"/>
+      <path d="M9 0 Q20 5 15 15" stroke="#FBBF24" stroke-width="3" fill="none"/>
+    </g>
+    <g transform="translate(310,110)">
+      <circle cx="0" cy="30" r="8"/>
+      <rect x="6" y="0" width="3" height="30"/>
+    </g>
+  </g>
+</svg>

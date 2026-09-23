@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- auction gavel -->
+  <g transform="translate(140,80) rotate(-20)">
+    <rect x="10" y="0" width="80" height="35" rx="6" fill="#92400E"/>
+    <rect x="10" y="0" width="80" height="10" rx="4" fill="#B45309"/>
+    <rect x="42" y="35" width="16" height="120" rx="4" fill="#78350F"/>
+    <!-- sound lines -->
+    <g stroke="#FBBF24" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7">
+      <path d="M100 15 Q110 15 115 5"/>
+      <path d="M100 30 Q115 30 125 25"/>
+      <path d="M100 45 Q110 45 115 55"/>
+    </g>
+  </g>
+  <!-- framed artwork on easel -->
+  <g transform="translate(230,120)">
+    <rect x="0" y="0" width="90" height="70" fill="#FEF3C7" stroke="#92400E" stroke-width="3"/>
+    <!-- painting inside -->
+    <rect x="5" y="5" width="80" height="60" fill="#3B82F6" opacity="0.5"/>
+    <circle cx="40" cy="30" r="15" fill="#FBBF24" opacity="0.7"/>
+    <!-- easel legs -->
+    <line x1="20" y1="70" x2="10" y2="130" stroke="#78350F" stroke-width="4"/>
+    <line x1="70" y1="70" x2="80" y2="130" stroke="#78350F" stroke-width="4"/>
+    <line x1="45" y1="70" x2="45" y2="130" stroke="#78350F" stroke-width="4"/>
+  </g>
+  <!-- price tag -->
+  <g transform="translate(330,60)">
+    <rect x="0" y="0" width="50" height="30" rx="4" fill="#EF4444"/>
+    <text x="25" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#fff" font-weight="bold">BID!</text>
+    <line x1="50" y1="15" x2="60" y2="25" stroke="#EF4444" stroke-width="3"/>
+  </g>
+</svg>

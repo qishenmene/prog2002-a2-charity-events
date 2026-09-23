@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#5B21B6"/>
+    </linearGradient>
+    <radialGradient id="chandelier" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FDE68A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- chandelier glow -->
+  <ellipse cx="120" cy="60" rx="80" ry="50" fill="url(#chandelier)"/>
+  <ellipse cx="280" cy="60" rx="80" ry="50" fill="url(#chandelier)"/>
+  <!-- chandeliers -->
+  <g stroke="#FBBF24" stroke-width="2" fill="#FBBF24">
+    <line x1="120" y1="0" x2="120" y2="25"/>
+    <circle cx="120" cy="30" r="8"/>
+    <line x1="280" y1="0" x2="280" y2="25"/>
+    <circle cx="280" cy="30" r="8"/>
+  </g>
+  <!-- round tables -->
+  <g fill="#fff" opacity="0.85">
+    <ellipse cx="80" cy="210" rx="55" ry="20"/>
+    <ellipse cx="200" cy="230" rx="55" ry="20"/>
+    <ellipse cx="320" cy="210" rx="55" ry="20"/>
+  </g>
+  <!-- candles -->
+  <g fill="#FBBF24">
+    <rect x="76" y="195" width="8" height="15" rx="2"/>
+    <rect x="196" y="215" width="8" height="15" rx="2"/>
+    <rect x="316" y="195" width="8" height="15" rx="2"/>
+  </g>
+  <g fill="#FEF3C7">
+    <circle cx="80" cy="190" r="3"/>
+    <circle cx="200" cy="210" r="3"/>
+    <circle cx="320" cy="190" r="3"/>
+  </g>
+  <!-- champagne glasses -->
+  <g fill="#FDE68A" opacity="0.7">
+    <path d="M70 200 L75 200 L78 190 L72 190 Z"/>
+    <rect x="72" y="200" width="4" height="6" fill="#fff" opacity="0.5"/>
+  </g>
+</svg>

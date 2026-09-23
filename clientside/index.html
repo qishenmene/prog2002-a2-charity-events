@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffs Coast Charity Collective — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="navbar">
+    <div class="logo">Coffs Coast <span>Charity</span></div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="search.html">Search Events</a>
+    </nav>
+  </header>
+
+  <!-- ===== Hero section ===== -->
+  <section class="hero">
+    <img src="images/hero.svg" alt="Volunteers at a charity event on the Coffs Coast">
+    <div class="hero-overlay">
+      <h1>Coffs Coast Charity Collective</h1>
+      <p>Connecting our community through charity events that raise funds and awareness for local causes. Every ticket is a donation. Every event makes a difference.</p>
+    </div>
+  </section>
+
+  <!-- ===== Main content ===== -->
+  <main class="container">
+
+    <!-- Static org info -->
+    <section class="org-info">
+      <h2>Our Mission</h2>
+      <p>The Coffs Coast Charity Collective is a not-for-profit organisation based in Coffs Harbour, New South Wales. We partner with local charities, volunteer groups and community organisations to run fundraising events that bring people together for good causes.</p>
+      <p>From fun runs along Coffs Creek to gala dinners at Opal Cove Resort, our events raise essential funds for children's health, marine conservation, and animal welfare across the Coffs Coast region.</p>
+      <div class="contact">
+        <span>Email: hello@coffscoastcharity.org.au</span>
+        <span>Phone: (02) 6650 1000</span>
+        <span>Office: 12 Harbour Street, Coffs Harbour NSW 2450</span>
+      </div>
+    </section>
+
+    <!-- Dynamic event listing -->
+    <h2 class="section-title">Upcoming Events</h2>
+
+    <!-- Loading indicator -->
+    <div id="loading" class="loading visible">Loading events</div>
+
+    <!-- Error message -->
+    <div id="error-msg" class="error-msg"></div>
+
+    <!-- Event grid populated by JS -->
+    <div id="event-grid" class="event-grid"></div>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Coffs Coast Charity Collective. PROG2002 Assessment 2 — Student ID: 24832627</p>
+  </footer>
+
+  <!-- ===== Scripts ===== -->
+  <script src="js/api.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

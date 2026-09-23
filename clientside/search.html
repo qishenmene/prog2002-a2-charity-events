@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Events — Coffs Coast Charity Collective</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="navbar">
+    <div class="logo">Coffs Coast <span>Charity</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html" class="active">Search Events</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content ===== -->
+  <main class="container">
+
+    <h2 class="section-title">Search Events</h2>
+
+    <!-- Search form -->
+    <form id="search-form" class="search-form">
+
+      <div class="form-row">
+        <!-- Filter 1: Date -->
+        <div class="form-group">
+          <label for="filter-date">From Date</label>
+          <input type="date" id="filter-date" name="date">
+        </div>
+
+        <!-- Filter 2: Location -->
+        <div class="form-group">
+          <label for="filter-location">Location</label>
+          <input type="text" id="filter-location" name="location" placeholder="e.g. Coffs, Garden, Stadium">
+        </div>
+
+        <!-- Filter 3: Category -->
+        <div class="form-group">
+          <label for="filter-category">Category</label>
+          <select id="filter-category" name="category">
+            <option value="">All Categories</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Search</button>
+        <button type="button" id="clear-btn" class="btn btn-secondary">Clear Filters</button>
+      </div>
+    </form>
+
+    <!-- Error message (DOM manipulation) -->
+    <div id="error-msg" class="error-msg"></div>
+
+    <!-- Loading indicator -->
+    <div id="loading" class="loading">Loading events</div>
+
+    <!-- No results message -->
+    <div id="no-results" class="no-results">No events match your search criteria. Try adjusting your filters.</div>
+
+    <!-- Results grid -->
+    <div id="results-grid" class="event-grid"></div>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Coffs Coast Charity Collective. PROG2002 Assessment 2 — Student ID: 24832627</p>
+  </footer>
+
+  <!-- ===== Scripts ===== -->
+  <script src="js/api.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>
